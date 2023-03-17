@@ -18,9 +18,9 @@ function move() {
 
 move()
 
-const counterElement = document.getElementById('counter');
-const startButton = document.getElementById('startButton');
-const stopButton = document.getElementById('stopButton');
+const counterElement = document.querySelector('#counter');
+const startButton = document.querySelector('#startButton');
+const stopButton = document.querySelector('#stopButton');
 let counter = 0;
 let intervalId = null;
 
